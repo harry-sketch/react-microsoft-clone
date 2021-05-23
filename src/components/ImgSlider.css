@@ -1,0 +1,117 @@
+.slider {
+  position: relative;
+  margin: 1rem auto;
+}
+.carousel .control-dots .dot {
+  background-color: #000 !important;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slider__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 30%;
+  left: 6%;
+}
+.slider__wrap > h3 {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.slider__wrap > p {
+  font-size: 1rem;
+}
+.slider__link {
+  margin-top: 1rem;
+  background-color: #000;
+  padding: 0.6rem 0.8rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 500ms ease-in;
+  text-align: center;
+}
+.slider__link:hover {
+  background-color: #1a1a1a;
+}
+.slider__link:hover .MuiSvgIcon-root {
+  margin-left: 0.3rem;
+}
+.slider__link a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 500ms ease;
+}
+.slider__link a:hover {
+  border-bottom: 3px solid #fff;
+}
+.slider__link .MuiSvgIcon-root {
+  transition: all 500ms ease-in;
+  color: #fff;
+  background-color: transparent;
+}
+
+.slider__link {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 723px) {
+  .slider__wrap {
+    top: 20%;
+    left: 6%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .carousel .control-dots .dot {
+    display: none !important;
+  }
+  .slider__wrap {
+    top: 10%;
+    left: 6%;
+  }
+  .slider__wrap > h3 {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .slider__link {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 0.9rem;
+  }
+  .slider__link .MuiSvgIcon-root {
+    font-size: 0.9rem;
+  }
+  .slider__wrap > p {
+    font-size: 0.59rem;
+  }
+}
+@media screen and (max-width: 355px) {
+  .slider__wrap {
+    top: 8%;
+  }
+  .slider__wrap > h3 {
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .slider__link {
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.7rem;
+  }
+  .slider__link .MuiSvgIcon-root {
+    font-size: 0.7rem;
+  }
+  .slider__wrap > p {
+    font-size: 0.5rem;
+  }
+}

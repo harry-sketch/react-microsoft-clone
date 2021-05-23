@@ -1,0 +1,109 @@
+.footer{
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:2rem 0;
+}
+.first__footer{
+    display: grid;
+    grid-template-columns: repeat(6,minmax(0,1fr));
+    grid-gap:2rem;
+    padding:0 2rem;
+}
+.footer__links{
+    list-style: none;
+}
+.footer__items{
+    margin-bottom:0.6rem ;
+}
+.footer__items a{
+    
+    text-decoration: none;
+    color: #616161;
+    font-size: 0.7rem;
+    transition: all 500ms ease-in;
+}
+.footer__items a:hover{
+    border-bottom: 1px solid #000;
+}
+.footer__heading{
+    color:#616161;
+    margin-bottom: 0.4rem;
+}
+
+
+.second__footer{
+    margin-top:2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+}
+
+.footer__secondLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer__secondItems {
+    margin-right:1rem;
+}
+.footer__secondItems a{
+    text-decoration: none;
+    color:#616161;
+    font-size: 0.7rem;
+    transition: all 500ms ease-in;
+}
+.footer__secondItems a:hover{
+    border-bottom: 1px solid #000;
+}
+
+.second__footerIcon{
+    display: flex;
+    align-items: center;
+}
+.second__footerIcon .MuiSvgIcon-root{
+    color:#616161;
+}
+.second__footerIcon > p{
+    color:#616161;
+}
+
+/* Responsive */
+
+
+@media screen and (max-width:875px) {
+    .first__footer{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
+    .second__footer{
+        flex-direction: column;
+    }
+    .footer__secondLink{
+        margin-top:1rem;
+    }
+    
+}
+@media screen and (max-width:755px) {
+    
+    .second__footer{
+        padding:0 1rem;
+    }
+   
+    .footer__secondLink{
+        flex-direction: column;
+    }
+      
+}
+
+@media screen and (max-width:430px) {
+    
+    .first__footer{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+    
+    
+    
+}

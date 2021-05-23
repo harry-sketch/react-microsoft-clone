@@ -1,0 +1,55 @@
+.card {
+  margin: 0 auto;
+}
+.card > h2{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+.card > p{
+    font-size:1rem;
+    margin-bottom: 0.2rem;
+}
+.sublink{
+   margin-bottom: 0.5rem;
+}
+
+.sublink .MuiSvgIcon-root{
+    color:blue;
+}
+.card > img {
+    margin-bottom:1rem;
+  width: 100%;
+  object-fit: contain;
+}
+.card__link {
+  display: flex;
+  align-items: center;
+}
+
+.card__link a {
+    color:blue;
+    transition: all 500ms ease-in;
+  text-decoration: none;
+}
+.card__link a:hover{
+  border-bottom: 1px solid blue;
+}
+.sublink {
+  display: flex;
+  align-items: center;
+}
+
+.sublink a {
+    color:blue;
+  text-decoration: none;
+  transition: all 500ms ease-in;
+}
+.sublink a:hover{
+  border-bottom: 1px solid blue;
+}
+.card__link .MuiSvgIcon-root{
+    color:blue;
+}
+
+ 

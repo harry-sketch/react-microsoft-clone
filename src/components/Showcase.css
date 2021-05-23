@@ -1,0 +1,43 @@
+.show{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-gap:2rem;
+    padding:2rem 13rem;
+    margin-bottom:1rem;
+}
+
+.show__box{
+    margin:0 auto;
+    text-align: center;
+    cursor: grab;
+}
+
+.show__box > img {
+    width:40px;
+    height:40px;
+    object-fit: contain;
+}
+.show__box > h4{
+    color:#000;
+    font: size 0.9rem;
+    font-weight:500;
+    transition:all 500ms ease-in;
+}
+.show__box > h4:hover{
+    border-bottom: 1px solid #000;
+}
+
+/* Responsive */
+@media screen and (max-width:1085px){
+    .show{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        padding:2rem 10rem;
+    }
+}
+
+@media screen and (max-width:690px){
+    .show{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+        padding:1rem;
+    }
+}

@@ -1,0 +1,27 @@
+.follow{
+    display: flex;
+    align-items: center;
+    margin-bottom:2rem;
+}
+
+.follow__image{
+    margin-left:2rem;
+}
+
+.follow__image > img{
+    width:30px;
+    height:30px;
+    object-fit: contain;
+    margin-left:1rem;
+}
+
+
+/* Responsive */
+
+
+@media screen and (max-width:306px) {
+    .follow__image{
+        margin-left: 0.5rem;
+    }
+    
+}

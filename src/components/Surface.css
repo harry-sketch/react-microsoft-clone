@@ -1,0 +1,117 @@
+.surface{
+    margin-top:3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.surface > img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.surface__text{
+    position: absolute;
+    top:30%;
+    left:6%;
+}
+
+.surface__text > h3{
+    font-size:1.5rem;
+    letter-spacing: 2px;
+    font-weight:700;
+    margin-bottom:0.4rem;
+}
+
+.surface__text > p{
+    margin-bottom: 0.4rem;
+}
+.surface__link{
+    margin-top:1rem;
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    width:35%;
+    transition: all 500ms ease-in;
+    cursor: pointer;
+    padding:0.6rem 0.8rem;
+}
+.surface__link:hover {
+    background-color: #1a1a1a;
+  }
+.surface__link a{
+    text-align:center;
+    text-decoration: none;
+    color:#fff;
+    font-size:1rem;
+    transition: all 500ms ease-in;
+}
+.surface__text > p{
+    font-size:1rem;
+}
+.surface__link .MuiSvgIcon-root{
+    color:#fff;
+    transition: all 500ms ease-in;
+}
+
+.surface__link:hover .MuiSvgIcon-root {
+    margin-left: 0.3rem;
+}
+
+.surface__link a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+
+/* Responsive */
+
+
+
+
+@media screen and (max-width:568px) {
+    .surface{
+        margin:1.5rem auto;
+    }
+    .surface__text{
+        top:10%;
+        left:6%;
+    }
+    .surface__text > h3{
+        font-size:1rem;
+    }
+    .surface__text > p{
+           font-size:0.6rem;
+    }
+    .surface__link{
+        margin-top:0.6rem;
+        padding:0.4rem 0.6rem;
+    }
+    .surface__link a {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:338px) {
+    .surface{
+        margin:1.5rem auto;
+    }
+    .surface__text{
+        top:8%;
+        left:6%;
+    }
+    .surface__text > h3{
+        font-size:0.9rem;
+    }
+    .surface__text > p{
+           font-size:0.5rem;
+    }
+    .surface__link{
+        padding:0.3rem 0.5rem;
+    }
+    .surface__link a {
+        font-size: 0.6rem;
+    }
+    .surface__link .MuiSvgIcon-root{
+        font-size:0.6rem;
+    }
+}
