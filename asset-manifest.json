@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-microsoft-clone/static/css/main.74bb0dfe.chunk.css",
+    "main.js": "/react-microsoft-clone/static/js/main.58b6c48f.chunk.js",
+    "main.js.map": "/react-microsoft-clone/static/js/main.58b6c48f.chunk.js.map",
+    "runtime-main.js": "/react-microsoft-clone/static/js/runtime-main.c698312b.js",
+    "runtime-main.js.map": "/react-microsoft-clone/static/js/runtime-main.c698312b.js.map",
+    "static/css/2.4ce9e501.chunk.css": "/react-microsoft-clone/static/css/2.4ce9e501.chunk.css",
+    "static/js/2.085c9960.chunk.js": "/react-microsoft-clone/static/js/2.085c9960.chunk.js",
+    "static/js/2.085c9960.chunk.js.map": "/react-microsoft-clone/static/js/2.085c9960.chunk.js.map",
+    "index.html": "/react-microsoft-clone/index.html",
+    "static/css/2.4ce9e501.chunk.css.map": "/react-microsoft-clone/static/css/2.4ce9e501.chunk.css.map",
+    "static/css/main.74bb0dfe.chunk.css.map": "/react-microsoft-clone/static/css/main.74bb0dfe.chunk.css.map",
+    "static/js/2.085c9960.chunk.js.LICENSE.txt": "/react-microsoft-clone/static/js/2.085c9960.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c698312b.js",
+    "static/css/2.4ce9e501.chunk.css",
+    "static/js/2.085c9960.chunk.js",
+    "static/css/main.74bb0dfe.chunk.css",
+    "static/js/main.58b6c48f.chunk.js"
+  ]
+}
